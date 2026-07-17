@@ -1,3 +1,6 @@
+# 构建目录
+build/
+
 # Qt Creator 用户配置
 CMakeLists.txt.user*
 
