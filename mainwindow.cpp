@@ -13,8 +13,10 @@ MainWindow::MainWindow(QWidget *parent)
     , fileMenuPtr(new QMenu("文件"))
 {
     ui->setupUi(this);
-    // 修改主窗口标题
+    // 设置主窗口标题
     setWindowTitle("多文档编辑器");
+    // 设置主窗口logo
+    setWindowIcon(QIcon(":/images/logo.png"));
     // 设置中心部件
     setCentralWidget(subWindowsAreaPtr);
     // 设置主窗口关闭即销毁
