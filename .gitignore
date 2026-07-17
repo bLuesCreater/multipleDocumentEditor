@@ -1,0 +1,8 @@
+# 构建输出
+build/
+
+# Qt Creator 用户配置
+CMakeLists.txt.user*
+
+# 测试文件
+temp/
