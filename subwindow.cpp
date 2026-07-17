@@ -30,7 +30,10 @@ SubWindow::~SubWindow()
 void SubWindow::openFile()
 {
     // 文件路径
-    QString filePath = QFileDialog::getOpenFileName(this, "选择打开文件", "../../temp", "所有文件(*);;文本文件(.txt)");
+    QString filePath = QFileDialog::getOpenFileName(this
+                                                    , "选择打开文件"
+                                                    , "../../"
+                                                    , "所有文件 (*);;文本文件 (*.txt)");
     // 用户取消选择
     if(filePath.isEmpty())
     {
@@ -98,17 +101,42 @@ void SubWindow::saveFile()
     return;
 }
 
+// 追加文件类型名
+void addFileType(QString & fileName, QString selectedFilter)
+{
+    // 类型名
+    QString typeName = "";
+    // 从'.'开始遍历选择过滤器到')'结束
+    for(int i = (selectedFilter.indexOf('.'));
+         i < selectedFilter.indexOf(')');
+         i ++)
+    {
+        // 完善类型名
+        typeName.append(selectedFilter.at(i));
+    }
+    // 追加类型名
+    fileName.append(typeName);
+}
+
 // 另存为文件
 void SubWindow::saveAsFile()
 {
+    // 选择过滤器
+    QString selectedFilter = "文本文件 (*.txt)";
     // 文件路径
-    QString filePath = QFileDialog::getSaveFileName(this, "选择保存路径", "../../temp");
+    QString filePath = QFileDialog::getSaveFileName(this
+                                                    , "选择保存路径"
+                                                    , "../../"
+                                                    , "所有文件 (*);;文本文件 (*.txt)"
+                                                    , &selectedFilter);
     // 如果用户取消选择
     if(filePath.isEmpty())
     {
         // 返回
         return;
     }
+    // 根据选择过滤器自动追加文件类型后缀
+    addFileType(filePath, selectedFilter);
     // 文件
     QFile file(filePath);
     // 如果只读打开路径文件失败
