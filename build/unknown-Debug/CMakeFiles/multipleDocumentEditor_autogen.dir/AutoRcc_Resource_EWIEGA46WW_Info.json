@@ -1,0 +1,23 @@
+{
+	"BUILD_DIR" : "/media/blues/0918910300BB6F5E1/\u8bfe\u7a0b/\u5176\u4ed6/YueQian/\u8bfe\u5802\u7b14\u8bb0v2/\u7b2c\u4e09\u9636\u6bb5/3.12_\u5d4c\u5165\u5f0fQt\u56fe\u5f62\u7f16\u7a0b/3.12.7_Qt\u89c6\u56fe\u6846\u67b6/multipleDocumentEditor/build/unknown-Debug/multipleDocumentEditor_autogen",
+	"CMAKE_BINARY_DIR" : "/media/blues/0918910300BB6F5E1/\u8bfe\u7a0b/\u5176\u4ed6/YueQian/\u8bfe\u5802\u7b14\u8bb0v2/\u7b2c\u4e09\u9636\u6bb5/3.12_\u5d4c\u5165\u5f0fQt\u56fe\u5f62\u7f16\u7a0b/3.12.7_Qt\u89c6\u56fe\u6846\u67b6/multipleDocumentEditor/build/unknown-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/media/blues/0918910300BB6F5E1/\u8bfe\u7a0b/\u5176\u4ed6/YueQian/\u8bfe\u5802\u7b14\u8bb0v2/\u7b2c\u4e09\u9636\u6bb5/3.12_\u5d4c\u5165\u5f0fQt\u56fe\u5f62\u7f16\u7a0b/3.12.7_Qt\u89c6\u56fe\u6846\u67b6/multipleDocumentEditor/build/unknown-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/media/blues/0918910300BB6F5E1/\u8bfe\u7a0b/\u5176\u4ed6/YueQian/\u8bfe\u5802\u7b14\u8bb0v2/\u7b2c\u4e09\u9636\u6bb5/3.12_\u5d4c\u5165\u5f0fQt\u56fe\u5f62\u7f16\u7a0b/3.12.7_Qt\u89c6\u56fe\u6846\u67b6/multipleDocumentEditor",
+	"CMAKE_SOURCE_DIR" : "/media/blues/0918910300BB6F5E1/\u8bfe\u7a0b/\u5176\u4ed6/YueQian/\u8bfe\u5802\u7b14\u8bb0v2/\u7b2c\u4e09\u9636\u6bb5/3.12_\u5d4c\u5165\u5f0fQt\u56fe\u5f62\u7f16\u7a0b/3.12.7_Qt\u89c6\u56fe\u6846\u67b6/multipleDocumentEditor",
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/media/blues/0918910300BB6F5E1/\u8bfe\u7a0b/\u5176\u4ed6/YueQian/\u8bfe\u5802\u7b14\u8bb0v2/\u7b2c\u4e09\u9636\u6bb5/3.12_\u5d4c\u5165\u5f0fQt\u56fe\u5f62\u7f16\u7a0b/3.12.7_Qt\u89c6\u56fe\u6846\u67b6/multipleDocumentEditor/build/unknown-Debug/multipleDocumentEditor_autogen/include",
+	"INPUTS" : 
+	[
+		"/media/blues/0918910300BB6F5E1/\u8bfe\u7a0b/\u5176\u4ed6/YueQian/\u8bfe\u5802\u7b14\u8bb0v2/\u7b2c\u4e09\u9636\u6bb5/3.12_\u5d4c\u5165\u5f0fQt\u56fe\u5f62\u7f16\u7a0b/3.12.7_Qt\u89c6\u56fe\u6846\u67b6/multipleDocumentEditor/images/logo.png"
+	],
+	"LOCK_FILE" : "/media/blues/0918910300BB6F5E1/\u8bfe\u7a0b/\u5176\u4ed6/YueQian/\u8bfe\u5802\u7b14\u8bb0v2/\u7b2c\u4e09\u9636\u6bb5/3.12_\u5d4c\u5165\u5f0fQt\u56fe\u5f62\u7f16\u7a0b/3.12.7_Qt\u89c6\u56fe\u6846\u67b6/multipleDocumentEditor/build/unknown-Debug/CMakeFiles/multipleDocumentEditor_autogen.dir/AutoRcc_Resource_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "Resource" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_Resource.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/media/blues/0918910300BB6F5E1/\u8bfe\u7a0b/\u5176\u4ed6/YueQian/\u8bfe\u5802\u7b14\u8bb0v2/\u7b2c\u4e09\u9636\u6bb5/3.12_\u5d4c\u5165\u5f0fQt\u56fe\u5f62\u7f16\u7a0b/3.12.7_Qt\u89c6\u56fe\u6846\u67b6/multipleDocumentEditor/build/unknown-Debug/CMakeFiles/multipleDocumentEditor_autogen.dir/AutoRcc_Resource_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/media/blues/0918910300BB6F5E1/\u8bfe\u7a0b/\u5176\u4ed6/YueQian/\u8bfe\u5802\u7b14\u8bb0v2/\u7b2c\u4e09\u9636\u6bb5/3.12_\u5d4c\u5165\u5f0fQt\u56fe\u5f62\u7f16\u7a0b/3.12.7_Qt\u89c6\u56fe\u6846\u67b6/multipleDocumentEditor/Resource.qrc",
+	"VERBOSITY" : 0
+}

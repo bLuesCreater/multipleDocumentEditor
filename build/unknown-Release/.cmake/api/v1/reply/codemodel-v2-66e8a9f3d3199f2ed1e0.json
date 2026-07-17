@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-e7dbf4cc0a2e53e1eccf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "multipleDocumentEditor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "multipleDocumentEditor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multipleDocumentEditor-Release-86539405f58e8a061557.json",
+					"name" : "multipleDocumentEditor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multipleDocumentEditor_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multipleDocumentEditor_autogen-Release-d082a321c91065828887.json",
+					"name" : "multipleDocumentEditor_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multipleDocumentEditor_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multipleDocumentEditor_autogen_timestamp_deps-Release-d2e2fafb432b9c48472e.json",
+					"name" : "multipleDocumentEditor_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/media/blues/0918910300BB6F5E1/\u8bfe\u7a0b/\u5176\u4ed6/YueQian/\u8bfe\u5802\u7b14\u8bb0v2/\u7b2c\u4e09\u9636\u6bb5/3.12_\u5d4c\u5165\u5f0fQt\u56fe\u5f62\u7f16\u7a0b/3.12.7_Qt\u89c6\u56fe\u6846\u67b6/multipleDocumentEditor/build/unknown-Release",
+		"source" : "/media/blues/0918910300BB6F5E1/\u8bfe\u7a0b/\u5176\u4ed6/YueQian/\u8bfe\u5802\u7b14\u8bb0v2/\u7b2c\u4e09\u9636\u6bb5/3.12_\u5d4c\u5165\u5f0fQt\u56fe\u5f62\u7f16\u7a0b/3.12.7_Qt\u89c6\u56fe\u6846\u67b6/multipleDocumentEditor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
